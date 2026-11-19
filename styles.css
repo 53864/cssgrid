@@ -2,9 +2,17 @@
             box-sizing: border-box;
         
         }
+        p {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgb(71, 28, 28);  
+        }
         body {
             margin: 0;
             padding:0;
+            background-color: #1f2023;
         }
         #wrapper {
             display: grid;
@@ -22,13 +30,13 @@
       }
         header {
             grid-area: header;
-            background: #2d3035;
-            background: linear-gradient(0deg, rgb(25, 25, 25) 0%, rgb(38, 39, 63) 50%, rgb(25, 25, 25) 100%);
-            
+            background: #1f2023;
+            background: linear-gradient(0deg, rgb(31, 30, 35) 0%, rgb(29, 29, 33) 50%, rgb(39, 40, 43) 100%);
             border-radius: 20px;
-            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            font-size: 40px;
-            color: orange; 
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-size: 80px;
+            color: rgb(62, 7, 3); 
             text-align: center;
 
 
@@ -41,39 +49,50 @@
             background-position: 50%;
             width: 100%;
             height: 100%;
-            padding: 40px;
+            padding: 20%;
+            text-shadow: 2px 2px 4px rgb(251, 248, 248);
+
         }
         nav {
             grid-area: nav;
-            background-color: blue;
+            background-color: #1f2023;
             border-radius: 20px;
             height: 50px;
-        }
+             
+            text-shadow: 2px 2px 4px rgb(71, 28, 28); }
         nav ul {
-            display: flex;
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            list-style-type: none;
+            text-shadow: 2px 2px 4px rgb(71, 28, 28);
         }
         nav ul li a {
             color: white;
             text-decoration: none;
-            padding: 20px;
+            padding: 40px;
+            font-size: 27px;
+            
         }
         nav li {
             list-style-type: none; 
+            
         }
         main {
             grid-area: main;
-            background-color: green;
+            background-color: #1f2023;
             border-radius: 20px;
         }
         aside {
             grid-area: aside;
-            background-color: pink;
+            background-color: #1f2023;
             border-radius: 20px;
 
         }
         footer {
             grid-area: footer;
-            background-color: tan;
+            background-color: #1f2023   ;
             border-radius: 20px;
 
 
