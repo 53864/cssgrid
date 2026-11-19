@@ -114,9 +114,16 @@
         }
         aside {
             grid-area: aside;
-            background-color: #1f2023;
+            background-color: white;
             border-radius: 20px;
+            box-shadow: 8px 8px 11px rgb(71, 28, 28);
 
+        }
+        .clothingimage3 {
+            width: 100%;
+            height: 50%;
+            border-radius: 20px;  
+            float: right;
         }
         .clothingimage2 {
             width: 0%;
