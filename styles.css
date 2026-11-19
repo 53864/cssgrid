@@ -4,15 +4,15 @@
         }
         p {
             font-family: 'Courier New', Courier, monospace;
-            font-size: 30px;
-            color: white;
+            font-size: 40px;
+            color: black;
             text-align: center;
-            text-shadow: 2px 2px 4px rgb(71, 28, 28);  
+            text-shadow: 4px 4px 6px rgb(71, 28, 28);  
         }
         body {
             margin: 0;
             padding:0;
-            background-color: #1f2023;
+            background-color: white;
         }
         #wrapper {
             display: grid;
@@ -30,32 +30,52 @@
       }
         header {
             grid-area: header;
-            background: #1f2023;
-            background: linear-gradient(0deg, rgb(31, 30, 35) 0%, rgb(29, 29, 33) 50%, rgb(39, 40, 43) 100%);
-            border-radius: 20px;
+            background: white;
             font-family: 'Courier New', Courier, monospace;
             font-weight: bold;
             font-size: 80px;
             color: rgb(62, 7, 3); 
-            text-align: center;
+            justify-content:left;
+            align-items:flex-start;    
 
 
         }
 
         header .hacker {
-            background-image:url(images/download.jpg);
+            background-image:url(images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvMjUxLXRlZGR5LTAzOS5qcGc.jpg);
             background-repeat:no-repeat;
             background-size: contain;
-            background-position: 50%;
             width: 100%;
             height: 100%;
             padding: 20%;
             text-shadow: 2px 2px 4px rgb(251, 248, 248);
+            display: flex;
+            flex-direction: row-reverse;
+            text-align: center;
 
+
+        }
+        .firstimage {
+            width: 80%;
+            height: 80%;
+            border-radius: 20px;  
+            box-shadow: 8px 8px 11px rgb(71, 28, 28);
+        }
+        .secondimage {
+            width: 70%;
+            height: 70%;
+            border-radius: 20px;  
+            box-shadow: 8px 8px 11px rgb(71, 28, 28);
+        }
+        .hacker-title {
+            font-size: 100px;
+            color: rgb(62, 7, 3);
+            text-shadow: 2px 2px 4px rgb(71, 28, 28);
+            padding-left: 20%;
         }
         nav {
             grid-area: nav;
-            background-color: #1f2023;
+            background-color: white;
             border-radius: 20px;
             height: 50px;
              
@@ -81,14 +101,29 @@
         }
         main {
             grid-area: main;
-            background-color: #1f2023;
+            background-color: white;
             border-radius: 20px;
+          
+        }
+        .clothingimage {
+            width: 50%;
+            height: 50%;
+            border-radius: 20px;  
+            float: left;
+            box-shadow: 8px 8px 11px rgb(71, 28, 28);
         }
         aside {
             grid-area: aside;
             background-color: #1f2023;
             border-radius: 20px;
 
+        }
+        .clothingimage2 {
+            width: 0%;
+            height: 70%;
+            border-radius: 20px;  
+            float: right;
+            box-shadow: 8px 8px 11px rgb(71, 28, 28);
         }
         footer {
             grid-area: footer;
